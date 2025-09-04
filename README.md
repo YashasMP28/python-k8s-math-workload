@@ -14,6 +14,7 @@ Clean project structure with Python virtual environment.
 📂 Project Structure
 
 k8s-math-workload/
+
 │── app/
 │ └── main.py
 │── Dockerfile
