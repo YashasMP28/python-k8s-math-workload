@@ -1,14 +1,17 @@
 🧮 Python Kubernetes Math Evaluator (Workload)
 
+
 📌 Project Overview
 This project implements a containerized Python application that evaluates mathematical expressions.
 The application is deployed as a Kubernetes Job on Minikube, following the Twelve-Factor App principles.
+
 
 🚀 Features
 Evaluate user-provided mathematical expressions securely.
 Containerized with Docker for portability.
 Deployable as a Job in Kubernetes using Minikube.
 Clean project structure with Python virtual environment.
+
 
 
 📂 Project Structure
@@ -28,6 +31,7 @@ k8s-math-workload/
 └── README.md
 
 
+
 🛠️ Technologies Used
 
 Python 3.10
@@ -36,6 +40,7 @@ Kubernetes (Minikube)
 kubectl CLI
 Git + GitHub
 VS Code
+
 
 
 ⚡ Setup Instructions
