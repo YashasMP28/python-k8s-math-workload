@@ -36,18 +36,23 @@ VS Code
 
 1️⃣ Build the Docker Image
 docker build -t math-evaluator:1.0 .
+
 2️⃣ Load Image into Minikube
 minikube image load math-evaluator:1.0
+
 3️⃣ Apply Kubernetes Job
 kubectl apply -f job.yaml
+
 4️⃣ Check Pods
 kubectl get pods
+
 5️⃣ View Logs (Job Output)
 kubectl logs <pod-name>
 
 📖 Example Output
 
 Evaluating: 10*(5+2)-3
+
 Result: 67
 
 
