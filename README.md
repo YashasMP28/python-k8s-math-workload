@@ -15,11 +15,9 @@ Clean project structure with Python virtual environment.
 
 📂 Project Structure
 
-bash
-Copy code
 k8s-math-workload/
 │── app/
-│   └── main.py
+│ └── main.py
 │── Dockerfile
 │── job.yaml
 │── requirements.txt
@@ -39,32 +37,25 @@ VS Code
 ⚡ Setup Instructions
 
 1️⃣ Build the Docker Image
-bash
-Copy code
 docker build -t math-evaluator:1.0 .
+
 2️⃣ Load Image into Minikube
-bash
-Copy code
 minikube image load math-evaluator:1.0
+
 3️⃣ Apply Kubernetes Job
-bash
-Copy code
 kubectl apply -f job.yaml
+
 4️⃣ Check Pods
-bash
-Copy code
 kubectl get pods
+
 5️⃣ View Logs (Job Output)
-bash
-Copy code
 kubectl logs <pod-name>
 
 
 📖 Example Output
 
-makefile
-Copy code
 Evaluating: 10*(5+2)-3
+
 Result: 67
 
 
