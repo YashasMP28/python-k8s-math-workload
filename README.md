@@ -16,10 +16,15 @@ Clean project structure with Python virtual environment.
 k8s-math-workload/
 
 │── app/
+
 │ └── main.py
+
 │── Dockerfile
+
 │── job.yaml
+
 │── requirements.txt
+
 └── README.md
 
 
